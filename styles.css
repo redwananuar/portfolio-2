@@ -72,6 +72,10 @@ body {
     background-color: #c3b09f;
 }
 
+.card-img-top {
+    height: 150px; /* Set a fixed height for the image */
+    object-fit: cover; /* Makes the image cover the area while maintaining its aspect ratio */
+}
 /* contact me */
 
 
