@@ -28,8 +28,8 @@
 <body>
   <!-- navbar section starts here -->
   <nav class="navbar navbar-expand-lg py-2 fixed-top" id="navbar">
-    <div class="container-fluid">
-      <img src="./photos/redwanlogo.svg">
+    <div class="container">
+      <img src="./photos/redwanlogo.svg" style="width: 10rem;">
       <button
       class="navbar-toggler"
       type="button"
@@ -54,7 +54,7 @@
         <a class="nav-link active" aria-current="page" href="#"><i class="fa-brands fa-facebook"></i></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#about-me">About Me</a>
+        <a class="nav-link active" aria-current="page" href="#about">About Me</a>
       </li>
       <li class="nav-item">
         <a class="nav-link active" href="#projects">Projects</a>
@@ -66,12 +66,11 @@
   </div>
 </div>
 </nav>
-<div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-smooth-scroll="true" tabindex="0"></div>
 <!-- hero section starts here -->
 <section class="hero" id="hero">
-  <div class="container py-2">
+  <div class="container">
     <div class="row">
-      <div class="text col-md-7 text-center" data-aos="fade-right">
+      <div class="col-md text-center" data-aos="fade-right">
         <h1>I am <strong>Redwan</strong></h1><br>
         <h4>and this is the <em>Portfolio</em></h4>
         <h5>Backend Developer</h5>
@@ -79,143 +78,127 @@
           <button type="button" class="btn rounder-3 mt-5">Download CV</button>
         </a>
       </div>
-      <div class="col-md-5">
+      <div class="col-md">
       </div>
     </div>
   </div>
 </section>
-
 <!-- about me section starts here -->
-<section class="about" id="about-me">
-  <div class="container py-5 text-center">
+  <div class="container py-5">
     <div class="row">
-      <div class="col-md-6 py-5" data-aos="fade-right">
-        <img src="./photos/aboutmesmall.png" alt="about me">
+      <div class="col-md" data-aos="fade-right">
+        <h1 class="text-center py-5">About me</h1>
       </div>
-      <div class="col-md-6 py-5" data-aos="fade-left">
+      <div class="col-md" data-aos="fade-left">
         <h2>What's Interesting?</h2>
-        <h6 class="lh-lg">I have started my journey in web development in 2021 as part of upskilling. it has been a rewarding experiences nonetheless. Currently I am working in Property Management field in one of reputable company in Malaysia. I love watching movies and rilex at home.</h6>
-      </div>
-      <div class="container mt-5" data-aos="fade-out">
-        <div class="text-skill">
-          <h2>Technologies</h2>
-          <h6>Some of technologies that I have experienced with.</h6>
-        </div>
-        <div class="row mt-5" id="logo">
-          <div class="col-md-2">
-            <i class="fa-brands fa-html5 fa-2xl" style="color: #74C0FC;"></i>
-          </div>
-          <div class="col-md-2">
-            <i class="fa-brands fa-js fa-2xl" style="color: #FFD43B;"></i>
-          </div>
-          <div class="col-md-2">
-            <i class="fa-brands fa-java fa-2xl" style="color: #74C0FC;"></i>
-          </div>
-          <div class="col-md-2">
-            <i class="fa-brands fa-php fa-2xl" style="color: #de2302;"></i>
-          </div>
-          <div class="col-md-2">
-            <i class="fa-brands fa-laravel fa-2xl" style="color: #d27751;"></i>
-          </div>
-          <div class="col-md-2">
-            <i class="fa-brands fa-bootstrap fa-2xl" id="icon"></i>
-          </div>
-        </div>
+        <h6 class="lh-lg">I have started my journey in web development in 2021 as part of reskilling. 
+          It has been a rewarding experiences nonetheless. 
+          Currently I am working in Property Management field in one of reputable company in Malaysia.</h6>
       </div>
     </div>
   </div>
-</section>
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-md" data-aos="fade-right" style="inline-block">
+        <h1 class="text-center py-5">Skills & Technologies</h1>
+      </div>
+      <div class="col-md" data-aos="fade-left">
+        <ul>
+          <li>PHP</li>
+          <li>Javascript</li>
+          <li>Laravel</li>
+          <li>Mysql</li>
+          <li>Linux</li>
+          <li>Codeigniter</li>
+          <li>Boostrap, CSS</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 <!-- project section starts here -->
-<section class="projects">
-  <div class="container mx-auto text-center py-5">
-    <h2 id="projects" class="mt-5" data-aos="fade-down">Projects</h2>
-    <h6>Some of my previous projects, be it from my individual project and school projects</h6>
-    <div class="row mt-5">
-      <div class="col-md-4 gx-5 gy-2" data-aos="fade-right">
-        <div class="card" >
-          <img src="photos/satay.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">A complaint management tools built for property management.</p>
-            <a href="https://www.comdesk.online"/>
-              <button type="button" class="btn btn-light rounder-3 mt-5">View</button>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 gx-5 gy-2" data-aos="fade-up">
-        <div class="card" >
-          <img src="photos/comdesk.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">A complaint management tools built for property management.</p>
-            <a href="https://www.comdesk.online"/>
-              <button type="button" class="btn btn-light rounder-3 mt-5">View</button>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 gx-5 gy-2" data-aos="fade-left">
-        <div class="card">
-          <img src="photos/satay.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">A simple website where you can purchase your favourite satay!</p>
-            <a href="https://satay-house.vercel.app"/>
-              <button type="button" class="btn btn-light rounder-3 mt-5">View</button>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- contact me starts here -->
-<section class="contact" id="contact">
- <div class="container">
-  <div class="contact-text text-center">
-   <h2>Let's Get in Touch.</h2>  
-  </div>
-  <div class="row">
-   <div class="col-8 bg-secondary-subtle">
-    <form action="https://getform.io/f/bejymlka" method="POST">
-    <div class=" form col-md-7 rounded-3">
-     <div class="mb-3">
-      <label for="exampleFormControlInput1" class="form-label">Name</label>
-      <input type="text" name="name" class="form-control" id="exampleFormControlInput1" placeholder="Please insert your name">
-     </div>
-     <div class="mb-3">
-      <label for="exampleFormControlInput1" class="form-label">Email</label>
-      <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="Please insert your email">
-     </div>
-     <div class="mb-3">
-      <label for="exampleFormControlInput1" class="form-label">Contact number</label>
-      <input type="number" name="number" class="form-control" id="exampleFormControlInput1" placeholder="Please insert your phone number">
-     </div>
-     <div class="mb-3">
-      <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-      <textarea class="form-control" type="text" name="message" id="exampleFormControlTextarea1" rows="3"></textarea>
-     </div>
-     <div class="submit text-center">
-      <button type="submit" class="btn rounder-3">Submit</button>
-     </div>
-    </div>
-   </form>
-  </div>
-  <div class="col-4 bg-light">
-   <div class="details mx-5 py-5">
-    <h4>Details</h4>
-    <p>Kinrara, Puchong, Selangor</p>
-    <p>Phone: (60) 11-2711 2117</p>
-    <p>Email: redwananuar@gmail.com</p>
-    <p>LinkedIn: www.linkedin.com/in/redwananuar</p>
-   </div>
- </div>  
+<div class="container">
+<h2 id="projects" class="text-center m-5" data-aos="fade-down">Projects</h2>
+<h6 class="text-center mb-5">Some of my previous projects, be it from my individual project and school projects</h6>
 </div>
-</section>
-      <!-- footer starts here -->
-      <div class="footer container-fluid py-3 text-center ">
-        <h6>COPYRIGHT 2023 | REDWAN ANUAR </h6>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4" data-aos="fade-right">
+        <div class="card">
+          <img src="./photos/hero3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Project 1</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
       </div>
-
-
+      <div class="col-md-4" data-aos="fade-up">
+        <div class="card">
+          <img src="./photos/hero3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Project 2</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="fade-left">
+        <div class="card">
+          <img src="./photos/hero3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Project 3</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- contact me starts here -->
+<h2 class="text-center m-5">Let's Get in Touch.</h2>  
+ <div class=" contact container mb-3">
+              <div class="row">
+                    <div class="col-md">
+                          <form action="https://getform.io/f/bejymlka" method="POST">
+                          <div class=" form col-md rounded-3">
+                          <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Name</label>
+                            <input type="text" name="name" class="form-control" id="exampleFormControlInput1" placeholder="Please insert your name">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email</label>
+                            <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="Please insert your email">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Contact number</label>
+                            <input type="text" name="number" class="form-control" id="exampleFormControlInput1" placeholder="Please insert your phone number">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                            <textarea class="form-control" type="text" name="message" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          </div>
+                          <div class="submit text-center mb-4">
+                            <button type="submit" class="btn rounder-3">Submit</button>
+                          </div>
+                          </div>
+                        </form>
+                    </div>
+                    <div class="details rounded col-md">
+                          <div class="details m-5">
+                            <h4>Details</h4>
+                            <p>Kinrara, Puchong, Selangor</p>
+                            <p>Phone: (60) 11-2711 2117</p>
+                            <p>Email: redwananuar@gmail.com</p>
+                            <p>LinkedIn: www.linkedin.com/in/redwananuar</p>
+                          </div>
+                    </div>        
+            </div>
+</div>
+      <!-- footer starts here -->
+<div class="footer container-fluid text-center py-5 ">
+        <h6>COPYRIGHT 2023 | REDWAN ANUAR </h6>
+</div>
+<!-- script -->
       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
       <script>
       AOS.init({
@@ -223,5 +206,8 @@
         duration: 2000
       });
       </script>
+      <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
     </body>
     </html>

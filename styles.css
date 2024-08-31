@@ -5,14 +5,14 @@
     box-sizing: border-box;
 }
 
-/* body CSS */
+/* body */
 
 body {
     font-family: 'Playfair Display', serif;
     transition: all 0.5s ease;
 }
 
-/* navbar CSS */
+/* navbar */
 
 .navbar {
     background-color: #c3b09f;
@@ -35,12 +35,7 @@ body {
 .hero {
     background-image: url(./photos/tested.png);
     background-size: cover;
-    min-height: 100vh;
-}
-
-.img {
-    width: 370px;
-    height: 500px;
+    height: 100vh;
 }
 
 .hero h1 {
@@ -62,30 +57,23 @@ body {
     border-color: #b59f8c;
 }
 
-/* about me CSS */
+/* about me*/
 
 .about {
-    min-height: 70vh;
+    height: 60vh;
+    background-color: aquamarine;
 }
 
-/* projects CSS */
+
+
+/* projects */
 .projects {
-    min-height: 80vh;
+    height: 100vh;
+    background-color: #c3b09f;
 }
 
-/* contact me CSS */
+/* contact me */
 
-.contact {
-    min-height: 100vh;
-
-}
-.contact h6 {
-    margin-bottom: 3rem;
-}
-
-.address {
-    background-color: #f7f7f7;
-}
 
 .submit button {
     background-color: #c3b09f;
@@ -96,42 +84,13 @@ body {
     border-color: #b59f8c;
 }
 
+.details {
+    background-color: #ede7e2;
+}
+
 /* footer CSS */
 
 .footer {
-    height: 30vh;
+    height: 20vh;
     background-color: #c3b09f;
 }
-/*testing code*/
-
-.card {
-    position: relative;
-    width: 400px;
-    height: 300px;
-    overflow: hidden;
-}
-
-.card-img-top {
-    width: 400px;
-    height: 300px;
-    object-fit: cover;
-}
-
-.card-body {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: auto;
-    padding: 30px;
-    background: rgba(0, 0, 0, 0.7);
-    color: white;
-    text-align: center;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-
-.card:hover .card-body {
-    opacity: 1;
-}
-
-.
