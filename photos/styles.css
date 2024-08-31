@@ -1,0 +1,100 @@
+/* general CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body */
+
+body {
+    font-family: 'Playfair Display', serif;
+    transition: all 0.5s ease;
+}
+
+/* navbar */
+
+.navbar {
+    background-color: #c3b09f;
+}
+
+.nav {
+    font-size: 0.9rem;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    color: #b59f8c;
+}
+
+
+/* hero CSS */
+.hero {
+    background-image: url(./photos/tested.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin-top: 30vh;
+
+}
+
+.hero h4 {
+    font-size: 2rem;
+}
+
+.hero button {
+    background-color: #c3b09f;
+}
+
+.hero button:hover {
+    background-color: white;
+    border-color: #b59f8c;
+}
+
+/* about me*/
+
+.about {
+    height: 60vh;
+    background-color: aquamarine;
+}
+
+
+
+/* projects */
+.projects {
+    height: 100vh;
+    background-color: #c3b09f;
+}
+
+.card-img-top {
+    height: 150px; /* Set a fixed height for the image */
+    object-fit: cover; /* Makes the image cover the area while maintaining its aspect ratio */
+}
+/* contact me */
+
+
+.submit button {
+    background-color: #c3b09f;
+}
+
+.submit button:hover {
+    background-color: white;
+    border-color: #b59f8c;
+}
+
+.details {
+    background-color: #ede7e2;
+}
+
+/* footer CSS */
+
+.footer {
+    height: 20vh;
+    background-color: #c3b09f;
+}
